@@ -9,6 +9,6 @@ export default defineConfig({
     tailwindcss(),
   ],
   test: {
-    environment: 'node',
+    environment: 'jsdom',
   },
 })
